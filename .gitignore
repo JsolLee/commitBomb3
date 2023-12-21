@@ -1,4 +1,6 @@
 HELP.md
+.metadata
+tmp/
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
