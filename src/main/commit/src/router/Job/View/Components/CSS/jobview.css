@@ -1,0 +1,10 @@
+th.p-1, td.p-1 {
+  border-bottom: none;
+}
+
+#share:hover{
+  color: #0d6efd;
+}
+#report:hover{
+  color: rgb(255, 35, 35);
+}

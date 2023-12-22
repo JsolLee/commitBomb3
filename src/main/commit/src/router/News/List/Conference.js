@@ -2,11 +2,12 @@ import React from 'react';
 
 // css 추가
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../../components/Conference.css';
+import '../Componets/CSS/conference.css';
 
 import Footer from '../../../components/Footer.js';
-import Popular_News from '../../../components/Popular_News.js';
+import Popular_News from '../Componets/JS/Popular_News.js';
 import Header from '../../../components/Header.js';
+
 const Conference = () => {
   return (
     <div>

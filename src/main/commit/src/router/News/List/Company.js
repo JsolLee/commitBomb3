@@ -1,6 +1,4 @@
 /*
-Company.js는 뉴스 리스트를 보여주는 화면입니다.
-
 1) ./List_backend/index.js 에서 네이버 뉴스 검색API을 사용해서 IT/과학 검색 결과를 크롤링하고 mongoDB을 사용하여 commit 라는 이름의 DB에 
 데이터를 저장한뒤에 Company.js로 데이터를 보내줍니다.
 
@@ -9,16 +7,15 @@ Company.js는 뉴스 리스트를 보여주는 화면입니다.
 3) 크롤링한 데이터를 DB에 넣고 확인가능한 상태이며, 그것을 웹 화면에 전달까지 가능한 상태입니다.
 
 단 이미지URL는 크롤링을 하여 데이터를 가져오는데 실패했습니다. 전달 가능한 데이터는 title, description, link입니다.
-
-
-*/import React from 'react';
+*/
+import React from 'react';
 
 // css 추가
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../../components/company.CSS';
+import '../Componets/CSS/company.CSS';
 
 import Footer from '../../../components/Footer.js';
-import Popular_News from '../../../components/Popular_News.js';
+import Popular_News from '../Componets/JS/Popular_News.js';
 import Header from '../../../components/Header.js';
 
 // npm install axios cheerio을 먼저 수행해야함
